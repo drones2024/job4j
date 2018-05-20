@@ -1,24 +1,24 @@
-package ru.job4j.calculate;
+package ru.job4j;
 
 /**
-* Calculate
-* @author Gilyazev Ramin
-*/
+ * Calculate
+ * @author Gilyazev Ramin
+ */
 public class Calculate {
     /**
      * main
      * @param args - args.
      */
-     public static void main(String[] args) {
-         System.out.println("Hello World");
-     }
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
 
     /**
      * Method echo.
      * @param name Your name.
      * @return Echo plus your name.
      */
-     public String echo(String name) {
-         return "Echo, echo, echo : " + name;
-     }
+    public String echo(String name) {
+        return "Echo, echo, echo : " + name;
+    }
 }
