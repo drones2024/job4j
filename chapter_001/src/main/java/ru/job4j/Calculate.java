@@ -2,7 +2,7 @@ package ru.job4j;
 
 /**
  * Calculate
- * @author Gilyazev Ramin
+ * @author Gilyazev Ramil
  */
 public class Calculate {
     /**
@@ -15,7 +15,7 @@ public class Calculate {
 
     /**
      * Method echo.
-     * @param name Your name.
+     * @param name Gilyazev Ramil.
      * @return Echo plus your name.
      */
     public String echo(String name) {
