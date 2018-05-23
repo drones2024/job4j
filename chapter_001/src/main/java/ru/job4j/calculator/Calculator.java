@@ -14,6 +14,8 @@ public class Calculator {
 
     /**
      * Сложение
+     * param first число
+     * param second число
      */
     public void add(double first, double second) {
         this.result = first + second;
@@ -21,6 +23,8 @@ public class Calculator {
 
     /**
      * Вычитание
+     * param first число
+     * param second число
      */
     public void sub(double first, double second) {
         this.result = first - second;
@@ -28,6 +32,8 @@ public class Calculator {
 
     /**
      * Умножение
+     * param first число
+     * param second число
      */
     public void mult(double first, double second) {
         this.result = first * second;
@@ -35,6 +41,8 @@ public class Calculator {
 
     /**
      * Деление
+     * param first число
+     * param second число
      */
     public void div(double first, double second) {
         this.result = first / second;
