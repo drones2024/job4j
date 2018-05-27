@@ -13,7 +13,6 @@ public class DummyBotTest {
                 bot.answer("Привет, Бот."),
                 is("Привет, умник."));
     }
-
     @Test
     public void whenByuBot() {
         DummyBot bot = new DummyBot();
@@ -21,7 +20,6 @@ public class DummyBotTest {
                 bot.answer("Пока."),
                 is("До скорой встречи."));
     }
-
     @Test
     public void whenUnknownBot() {
         DummyBot bot = new DummyBot();
